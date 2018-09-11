@@ -3,12 +3,11 @@ ul#menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color: black;
 }
 
-li#menu {
-    float: left;
-}
+li#menu {float: left;}
+li#Home {background-color: blue;}
 
 li a {
     display: block;
@@ -18,10 +17,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: blue;
-}
+li a:hover {background-color: grey;}
 
 ul#lijst {list-style-type: none;}
 
 #text {text-align: center;}
+#werkpagina {text-align: center;}
+#opleidingpagina {text-align: center;}
+#motivatiegpagina {text-align: center;}
