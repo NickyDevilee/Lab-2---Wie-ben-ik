@@ -1,3 +1,11 @@
+/*Nicky Devilee
+Bol4 applicatieontwikkelaar*/
+
+body{
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 /*de styling van het menu, geen streepjes onder de tekst, geen bolletjes ervoor.*/
 ul#menu {
     list-style-type: none;
@@ -8,8 +16,8 @@ ul#menu {
 }
 /*li moet links staan om goed te werken.*/
 li#menu {float: left;}
-/*de home knop heeft zo een kleur om goed zichtbaar te zijn.*/
-li#Home {background-color: #660000;}
+/*de actieve pagina heeft zo een kleur om goed zichtbaar te zijn.*/
+li.Active {background-color: #191970;}
 /*de opmaak voor het menu, de tekst is zo wit, in het midden en heeft geen streepjes of bolletjes*/
 li a {
     display: block;
