@@ -1,3 +1,4 @@
+/*de styling van het menu, geen streepjes onder de tekst, geen bolletjes ervoor.*/
 ul#menu {
     list-style-type: none;
     margin: 0;
@@ -5,10 +6,11 @@ ul#menu {
     overflow: hidden;
     background-color: black;
 }
-
+/*li moet links staan om goed te werken.*/
 li#menu {float: left;}
-li#Home {background-color: blue;}
-
+/*de home knop heeft zo een kleur om goed zichtbaar te zijn.*/
+li#Home {background-color: #660000;}
+/*de opmaak voor het menu, de tekst is zo wit, in het midden en heeft geen streepjes of bolletjes*/
 li a {
     display: block;
     color: white;
@@ -16,12 +18,14 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
-
+/*wanneer je muis zo over het menu gaat veranderd de achtergrond kleur naar grijs.*/
 li a:hover {background-color: grey;}
 
-ul#lijst {list-style-type: none;}
+/*dit zorgt ervoor dat de lijst op de motivatiepagina geen bolletjes heeft voor de tekst omdat dit in een ul staat.*/
+ul#ulPage2 {list-style-type: none;}
 
-#text {text-align: center;}
+/*dit zorgt ervoor dat de tekst op elke site in het midden staat.*/
+#page1 {text-align: center;}
 #werkpagina {text-align: center;}
 #opleidingpagina {text-align: center;}
 #motivatiegpagina {text-align: center;}
