@@ -1,6 +1,7 @@
 /*Nicky Devilee
 Bol4 applicatieontwikkelaar*/
 
+/*een opmaak voor de achtergrond van de pagina*/
 body{
     background-image: url(../img/BG.jpg);
     background-repeat: no-repeat;
@@ -16,8 +17,10 @@ ul#menu {
 }
 /*li moet links staan om goed te werken.*/
 li#menu {float: left;}
+
 /*de actieve pagina heeft zo een kleur om goed zichtbaar te zijn.*/
 li.Active {background-color: #191970;}
+
 /*de opmaak voor het menu, de tekst is zo wit, in het midden en heeft geen streepjes of bolletjes*/
 li a {
     display: block;
@@ -26,6 +29,7 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
+
 /*wanneer je muis zo over het menu gaat veranderd de achtergrond kleur naar grijs.*/
 li a:hover {background-color: grey;}
 
