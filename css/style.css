@@ -36,8 +36,24 @@ li a:hover {background-color: grey;}
 /*dit zorgt ervoor dat de lijst op de motivatiepagina geen bolletjes heeft voor de tekst omdat dit in een ul staat.*/
 ul#ulPage2 {list-style-type: none;}
 
-/*dit zorgt ervoor dat de tekst op elke site in het midden staat.*/
-#page1 {text-align: center;}
-#werkpagina {text-align: center;}
-#opleidingpagina {text-align: center;}
-#motivatiegpagina {text-align: center;}
+/*dit zorgt ervoor dat de tekst op elke site in het midden staat en er witte ruimte is aan de linker en rechter kant.*/
+#page1 {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#werkpagina {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#opleidingpagina {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#motivatiegpagina {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
